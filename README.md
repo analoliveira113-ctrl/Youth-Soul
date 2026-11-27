@@ -1,28 +1,31 @@
-# Youth Soul
+# Youth Soul — TCC
 
-Plataforma web acadêmica para conectar jovens, famílias e instituições a informações, oportunidades e iniciativas de desenvolvimento social.
+Projeto inicial em React + Vite inspirado nas 7 telas do PDF de referência do Figma.
 
-## Sobre o projeto
-A Youth Soul será uma plataforma web responsiva, composta por um site institucional e uma loja virtual integrada chamada Alma Livre.
+## Como executar
+1. Instale Node.js (versão LTS).
+2. Extraia o ZIP.
+3. Abra a pasta no VS Code.
+4. No terminal, execute:
 
-## Funcionalidades previstas
-- Apresentação institucional da Youth Soul.
-- Divulgação de iniciativas e projetos.
-- Informações sobre oportunidades e apoio aos jovens.
-- Área de parceiros.
-- Loja virtual Alma Livre.
-- Catálogo, detalhes dos produtos, carrinho e finalização de pedidos.
+```bash
+npm install
+npm run dev
+```
 
-## Tecnologias
-- HTML5, CSS3 e JavaScript
-- React
-- Supabase
-- Git e GitHub
+5. Abra o endereço local mostrado pelo Vite.
 
-## Equipe
-- Eloize Oliveira Muzel — Scrum Master e Desenvolvedora
-- Maria Eduarda da Silva Dias — Product Owner
-- Isabelly Oliveira do Carmo — Desenvolvedora
-- Ana Laura Paulino Oliveira — Desenvolvedora
+## Páginas
+- `/` — Início
+- `/quem-somos` — Quem Somos
+- `/iniciativas` — Nossas Iniciativas
+- `/apoio-aos-jovens` — Apoio aos Jovens
+- `/parceiros` — Parceiros
+- `/loja` — Loja Alma Livre
+- `/contato` — Contato
 
-Projeto desenvolvido durante o curso técnico em Desenvolvimento de Sistemas, utilizando metodologia ágil Scrum.
+## Observações
+- O layout é responsivo e usa Nunito + Quicksand, tons creme, verde, rosa e amarelo e cards arredondados conforme a referência.
+- Formulários e carrinho estão em modo demonstrativo (não enviam dados nem processam pagamentos).
+- As fotografias são carregadas de URLs externas do Unsplash; é necessária conexão com a internet.
+- Supabase e checkout real ainda precisam ser ligados às credenciais e regras do projeto do grupo.
